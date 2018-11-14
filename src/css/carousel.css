@@ -1,0 +1,49 @@
+.carousel-image {
+  position: relative;
+  opacity: 0.75 !important;
+  background-position: center top !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  -webkit-transition: background 1000ms ease-in 500ms;
+  -moz-transition: background 1000ms ease-in 500ms;
+  -o-transition: background 1000ms ease-in 500ms;
+  -ms-transition: background 1000ms ease-in 500ms;
+  transition: background 1000ms ease-in 500ms; }
+
+.parallax1 {
+  background: url(../assets/contagious1.png);
+  min-height: 50%; }
+
+.parallax2 {
+  background: url(../assets/contagious2.png);
+  min-height: 50%; }
+
+.parallax3 {
+  background: url(../assets/contagious3.png);
+  min-height: 50%; }
+
+@media only screen and (min-device-width: 361px) {
+  .parallax1 {
+    background: url(../assets/contagious1.png);
+    background-size: 100% 98% !important;
+    min-height: 100%; }
+  .parallax2 {
+    background: url(../assets/contagious2.png);
+    background-size: 100% 98% !important;
+    min-height: 100%; }
+  .parallax3 {
+    background: url(../assets/contagious3.png);
+    background-size: 100% 98% !important;
+    min-height: 100%; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  .parallax1 {
+    background: url(../assets/contagious1.png);
+    min-height: 50%; }
+  .parallax2 {
+    background: url(../assets/contagious2.png);
+    min-height: 50%; }
+  .parallax3 {
+    background: url(../assets/contagious3.png);
+    min-height: 50%; } }

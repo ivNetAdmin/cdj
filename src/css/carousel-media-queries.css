@@ -1,0 +1,22 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .carousel-image {
+    position: relative;
+    opacity: 0.75 !important;
+    background-position: center top !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    -webkit-transition: background 1000ms ease-in 500ms;
+    -moz-transition: background 1000ms ease-in 500ms;
+    -o-transition: background 1000ms ease-in 500ms;
+    -ms-transition: background 1000ms ease-in 500ms;
+    transition: background 1000ms ease-in 500ms; }
+  .parallax1 {
+    background: url(../assets/contagious1.png);
+    min-height: 45%; }
+  .parallax2 {
+    background: url(../assets/contagious2.png);
+    min-height: 45%; }
+  .parallax3 {
+    background: url(../assets/contagious3.png);
+    min-height: 45%; } }
